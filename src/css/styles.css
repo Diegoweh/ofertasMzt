@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Londrina+Solid:wght@100;300;400;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Moonrocks&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Delius&family=Londrina+Solid:wght@100;300;400;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Moonrocks&display=swap');
+
+
+.rubik-moonrocks-regular {
+    font-family: "Rubik Moonrocks", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.delius-regular {
+  font-family: "Delius", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Carrusel */
+.custom-carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3%; /* Ajusta según sea necesario */
+}
+  
+.carousel-control-prev.custom-carousel-btn {
+    left: -0%; /* Más a la izquierda */
+}
+  
+.carousel-control-next.custom-carousel-btn {
+    right: -0%; /* Más a la derecha */
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Offer Sectionn */
+.btn:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://static.wixstatic.com/media/a4be78_992aef5e3b9ee8dce86915d3d8591477.jpg/v1/fill/w_702,h_342,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/a4be78_992aef5e3b9ee8dce86915d3d8591477.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.hero-section2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/54/dc/89/plato-de-exhibicion.jpg?w=900&h=-1&s=1');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.hero-section3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://image-tc.galaxy.tf/wijpeg-6svbgpj6182xpk0gbqqhtozw2/_photo.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.btn-custom-pink {
+  background-color: #E91E63;
+  border-color: #E91E63;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+}
+
+.btn-custom-outline {
+  border: 2px solid white;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 25px;
+}
+
+.btn-custom-outline:hover {
+  background-color: white;
+  color: black;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Contact */
+.bg-image {
+  background-image: url('https://fa1a037f8c09e8758060-72c220437e6d99e967347aa44d61d6ad.ssl.cf1.rackcdn.com/u/aerial-el-moro-hotel-exterior.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 65vh;
+}
+
+
+/* Footer */
+.footer {
+  padding: 4rem 0 1rem 0;
+  background-color: #ffffff;
+}
+
+.footer-logo {
+  max-width: 260px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+.copyright {
+  border-top: 1px solid #dee2e6;
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+.contact-heading {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+.contact-info {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.attractions-list {
+  list-style: none;
+  padding: 0;
+}
+.attractions-list li {
+  margin-bottom: 0.5rem;
+}
+
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
+}
+
+.img-animation {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+
+    animation-timeline: --image;
+    animation-name: show;
+
+    animation-range: entry 25% cover 45%;
+
+}
+
+
+
+
+
